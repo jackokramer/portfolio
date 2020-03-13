@@ -6,7 +6,16 @@
     <title>Jack's Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
-
+    <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  
     <!--FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Inconsolata|Josefin+Sans|Ubuntu|Work+Sans&display=swap" rel="stylesheet"> <!--Change fonts 2:06-->
 
@@ -89,48 +98,6 @@
         <p class="section_subtitle"> A selection of my range of work</p>
         <br>
         <div class="portfolio">
-            <!--Portfolio 1-->
-            <a href="#" class="portfolio_item">
-                <img src="img/astoria.jpeg" alt="astro" class="portfolio_img">
-            </a>
-        </div>
-
-        <div class="portfolio">
-            <!--Portfolio 2-->
-            <a href="#" class="portfolio_item">
-                <img src="img/biarittz.jpeg" alt="biarittz" class="portfolio_img">
-            </a>
-        </div>
-
-        <div class="portfolio">
-            <!--Portfolio 3-->
-            <a href="#" class="portfolio_item">
-                <img src="img/seaside.jpeg" alt="seaside" class="portfolio_img">
-            </a>
-        </div>
-
-        <div class="portfolio">
-            <!--Portfolio 4-->
-            <a href="#" class="portfolio_item">
-                <img src="img/venice.jpeg" alt="venice" class="portfolio_img">
-            </a>
-        </div>
-
-        <div class="portfolio">
-            <!--Portfolio 5-->
-            <a href="#" class="portfolio_item">
-                <img src="img/cannon.jpeg" alt="cannon" class="portfolio_img">
-            </a>
-        </div>
-
-        <div class="portfolio">
-            <!--Portfolio 6-->
-            <a href="#" class="portfolio_item">
-                <img src="img/circles.jpeg" alt="circle" class="portfolio_img">
-            </a>
-        </div>
-
-        <div class="portfolio">
             <!--Portfolio 7-->
             <a href="#" class="portfolio_item">
                 <img src="img/volaris.jpeg" alt="" class="portfolio_img">
@@ -150,13 +117,42 @@
                 <img src="img/m10.png" alt="" class="portfolio_img">
             </a>
         </div>
-
+        <br>
+        <br>
         <div class="portfolio">
             <!--Portfolio 10-->
             <a href="#" class="portfolio_item">
-                <img src="portfolio-10.jpg" alt="" class="portfolio_img">
+                <img src="img/southern.jpeg" alt="" class="portfolio_img">
             </a>
         </div>
+        <br>
+        <br>
+        <div class="contact-form">
+            <h2>Shoot me a message</h2>
+            <br>
+                <form class="text-center">
+                    <div class="form-group w-25">
+                      <label for="formGroupExampleInput">First Name</label>
+                      <input type="text" class="form-control w-75 text-center" id="formGroupExampleInput" placeholder="First Name">
+                    </div>
+                    <div class="form-group w-25">
+                        <label for="formGroupExampleInput">Last Name</label>
+                        <input type="text" class="form-control w-75 text-center" id="formGroupExampleInput" placeholder="Last Name">
+                      </div>
+                    <div class="form-group w-25">
+                      <label for="formGroupExampleInput2">Email</label>
+                      <input type="text" class="form-control w-75 text-center" id="formGroupExampleInput2" placeholder="Email">
+                    </div>
+                    <div class="form-group w-25">
+                        <label for="formGroupExampleInput2">Message</label>
+                        <textarea class="form-control w-75 text-center" id="formGroupExampleInput2" placeholder="comment" cols="30" rows="5">
+                        </textarea>
+                        <br>
+                        <a href="/contact" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Submit</a>
+                    </div>
+                  </form>
+        </div>
+          
     </section>    
     <!--FOOTER-->
         <footer class="footer">
